@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="content">
+        <view class="txt" wx:for="{{txt}}" wx:key>
+            <text class="line" wx:for="{{item}}" wx:key>{{item}}</text>
+        </view>
+    </view>
+</view>
